@@ -1,6 +1,10 @@
 <template>
   <section class="recipes">
-      <Recipe/>
+      <Recipe
+        thumbnail="https://www.metro.ca/userfiles/image/recipes/pizza-saucisse-piquante-2301.jpg"
+        title="Delicious Pizza"
+        previewText="Awesome Pizza"
+      />
       <article class="recipe">
           <div class="thumbnail" style="background-image: url('http://cdn0.wideopeneats.com/wp-content/uploads/2016/12/days-order-seafood-restaurant.png')"></div>
           <h1>Title</h1>
