@@ -5,11 +5,11 @@
         title="Delicious Pizza"
         previewText="Awesome Pizza"
       />
-      <article class="recipe">
-          <div class="thumbnail" style="background-image: url('http://cdn0.wideopeneats.com/wp-content/uploads/2016/12/days-order-seafood-restaurant.png')"></div>
-          <h1>Title</h1>
-          <p>Some nice preview text</p>
-      </article>
+      <Recipe
+          thumbnail="http://cdn0.wideopeneats.com/wp-content/uploads/2016/12/days-order-seafood-restaurant.png"
+          title="Sea Food Salad"
+          previewText="Very tasty indeed!"
+       />
   </section>
 </template>
 
