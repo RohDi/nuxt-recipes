@@ -1,10 +1,6 @@
 <template>
   <section class="recipes">
-      <article class="recipe">
-          <div class="thumbnail" style="background-image: url('https://www.metro.ca/userfiles/image/recipes/pizza-saucisse-piquante-2301.jpg')"></div>
-          <h1>Title</h1>
-          <p>Some nice preview text</p>
-      </article>
+      <Recipe/>
       <article class="recipe">
           <div class="thumbnail" style="background-image: url('http://cdn0.wideopeneats.com/wp-content/uploads/2016/12/days-order-seafood-restaurant.png')"></div>
           <h1>Title</h1>
@@ -12,6 +8,16 @@
       </article>
   </section>
 </template>
+
+<script>
+import Recipe from '@/components/Recipe'
+
+export default {
+    components: {
+        Recipe
+    }
+}
+</script>
 
 <style scoped>
 
