@@ -1,12 +1,12 @@
 <template>
   <section class="recipes">
       <Recipe
-        thumbnail="https://www.metro.ca/userfiles/image/recipes/pizza-saucisse-piquante-2301.jpg"
+        thumbnail="https://bit.ly/2GVYWM2"
         title="Delicious Pizza"
         previewText="Awesome Pizza"
       />
       <Recipe
-          thumbnail="http://cdn0.wideopeneats.com/wp-content/uploads/2016/12/days-order-seafood-restaurant.png"
+          thumbnail="https://bit.ly/2qtNwou"
           title="Sea Food Salad"
           previewText="Very tasty indeed!"
        />
