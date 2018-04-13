@@ -1,14 +1,15 @@
 <template>
     <article class="recipe">
-        <div class="thumbnail" style="background-image: url('https://www.metro.ca/userfiles/image/recipes/pizza-saucisse-piquante-2301.jpg')"></div>
-        <h1>Title</h1>
-        <p>Some nice preview text</p>
+        <div class="thumbnail" :style="{backgroundImage: 'url(' + thumbnail + ')'}"></div>
+        <h1>{{ title }} </h1>
+        <p>{{ previewText }}</p>
     </article>
 </template>
 
 <script>
 
 export default {
+    props: ['thumbnail', 'title', 'previewText']
 }
 
 </script>
