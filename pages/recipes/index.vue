@@ -3,12 +3,14 @@
       <Recipe
         thumbnail="https://bit.ly/2GVYWM2"
         title="Delicious Pizza"
+        id="1"
         previewText="Awesome Pizza"
       />
       <Recipe
-          thumbnail="https://bit.ly/2qtNwou"
-          title="Sea Food Salad"
-          previewText="Very tasty indeed!"
+        thumbnail="https://bit.ly/2qtNwou"
+        title="Sea Food Salad"
+        id="2"
+        previewText="Very tasty indeed!"
        />
   </section>
 </template>
