@@ -1,6 +1,6 @@
 <template>
   <section class="single-recipe">
-      <h1>TITLE</h1>
+      <h1>{{ $route.params.id }}</h1>
       <div>
           <img src="" alt="">
       </div>
