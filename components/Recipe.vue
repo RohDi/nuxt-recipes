@@ -18,6 +18,11 @@ export default {
 
 <style scoped>
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .recipe {
     box-sizing: border-box;
     width: 280px;
