@@ -1,17 +1,13 @@
 <template>
   <section class="recipes">
       <Recipe
-        :thumbnail="recipes[0].thumbnail"
-        :title="recipes[0].title"
-        :id="recipes[0].id"
-        :previewText="recipes[0].previewText"
+        v-for="recipe in recipes"
+        :key="recipe.id"
+        :thumbnail="recipe.thumbnail"
+        :title="recipe.title"
+        :id="recipe.id"
+        :previewText="recipe.previewText"
       />
-      <Recipe
-        :thumbnail="recipes[1].thumbnail"
-        :title="recipes[1].title"
-        :id="recipes[1].id"
-        :previewText="recipes[0].previewText"
-       />
   </section>
 </template>
 
