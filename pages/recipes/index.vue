@@ -7,10 +7,10 @@
         :previewText="recipes[0].previewText"
       />
       <Recipe
-        thumbnail="https://bit.ly/2qtNwou"
-        title="Sea Food Salad"
-        id="2"
-        previewText="Very tasty indeed!"
+        :thumbnail="recipes[1].thumbnail"
+        :title="recipes[1].title"
+        :id="recipes[1].id"
+        :previewText="recipes[0].previewText"
        />
   </section>
 </template>
